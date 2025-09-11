@@ -9,7 +9,7 @@ void main(List<String> arguments) {
   print('Enter your name: ');
 
   //capture the input
-  String? name = stdin.readLineSync();
+  String? name = stdin.readLineSync();w
   //display output
   print("Hello $name welcome to the dart console app");
 }

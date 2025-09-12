@@ -1,4 +1,4 @@
-main() {
+void main() {
   var listName = [10, 20, 30, 40];
   listName.add(50);
 

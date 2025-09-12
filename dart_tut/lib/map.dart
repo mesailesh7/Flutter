@@ -1,8 +1,8 @@
 void main() {
   print("hello world");
 
-  var map_name = {'Key1': "SUnny", 'Key2': 2};
-  var mapName = Map();
+  var mapName = {'Key1': "SUnny", 'Key2': 2};
+  var mapName = {};
 
   mapName['Name'] = "Mahima";
   mapName['age'] = 32;

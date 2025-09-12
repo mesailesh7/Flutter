@@ -21,7 +21,7 @@ void main() {
   // print(longValue.runtimeType);
   print(longValue);
 
-  var section;
+  Object section;
 
   section = "D";
   section = 7;

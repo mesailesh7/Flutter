@@ -6,8 +6,8 @@ class Dictionary {
 
   Dictionary({required this.term, required this.meaning});
 
-  factory DictionaryEntry.create(Map<String, dynamic> jsonMap) {
+  factory Dictionary.create(Map<String, dynamic> jsonMap) {
     String term = jsonMap['word'];
-    String meaning = jsonMap['meaning']
+    String meaning = jsonMap['meanings'][0]['definations'][0]['definition'];
   }
 }

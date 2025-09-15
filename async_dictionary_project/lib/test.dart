@@ -1,4 +1,3 @@
-import 'package:http/http.dart';
 
 class Dictionary {
   final String term;

@@ -1,5 +1,3 @@
-import 'package:async_dictionary_project/async_dictionary_project.dart'
-    as async_dictionary_project;
 
 import 'dart:convert';
 import 'dart:io';

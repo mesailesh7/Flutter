@@ -1,5 +1,3 @@
-import 'package:flutter_dictionary/flutter_dictionary.dart'
-    as flutter_dictionary;
 
 import 'dart:convert';
 import 'dart:io';

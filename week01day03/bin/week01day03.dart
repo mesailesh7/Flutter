@@ -1,7 +1,5 @@
 import 'dart:io';
 
-import 'package:week01day03/week01day03.dart' as week01day03;
-import 'package:week01day03/rectangle.dart' as rectangle;
 
 void main(List<String> arguments) {
   // print('Hello world: ${week01day03.calculate()}!');

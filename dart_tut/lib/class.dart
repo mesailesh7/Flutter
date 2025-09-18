@@ -1,8 +1,8 @@
 import 'package:dart_tut/post.dart';
 
 void main() {
-  String _text = "hello";
-  final newPost = new Post();
+  String text = "hello";
+  final newPost = Post();
 
   newPost.increamentLikes();
   newPost.increamentLikes();
@@ -13,5 +13,5 @@ void main() {
 }
 
 class name {
-  String _name = "Sunny";
+  final String _name = "Sunny";
 }

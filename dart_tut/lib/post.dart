@@ -1,5 +1,5 @@
 class Post {
-  var _title = 'new Post';
+  final _title = 'new Post';
   var _likes = 0;
 
   void increamentLikes() {

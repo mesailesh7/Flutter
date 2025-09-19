@@ -1,6 +1,9 @@
 import 'package:first_app/styled_text.dart';
 import 'package:flutter/material.dart';
 
+final startAlignment = Alignment.topLeft;
+final endAlignment = Alignment.bottomRight;
+
 class GraidentContainer extends StatelessWidget {
   const GraidentContainer({super.key});
 
@@ -17,7 +20,7 @@ class GraidentContainer extends StatelessWidget {
           end: Alignment.bottomRight,
         ),
       ),
-      child: const Center(child: StyledText()),
+      child: const Center(child: StyledText("hello world")),
     );
   }
 }

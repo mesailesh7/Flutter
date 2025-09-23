@@ -10,7 +10,7 @@ class GraidentContainer extends StatelessWidget {
   @override
   Widget build(context) {
     return Container(
-      decoration: const BoxDecoration(
+      decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
             Color.fromARGB(255, 26, 2, 80),

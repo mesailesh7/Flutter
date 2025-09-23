@@ -20,7 +20,7 @@ class GraidentContainer extends StatelessWidget {
           end: Alignment.bottomRight,
         ),
       ),
-      child: const Center(child: StyledText("hello world")),
+      child: Center(child: StyledText("hello world")),
     );
   }
 }

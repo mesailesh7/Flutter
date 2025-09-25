@@ -20,6 +20,6 @@ class MyApp extends StatelessWidget {
     // They will be explained in the next sections
     // In this course, you will, of course, not just use them a lot but
     // also learn about many other widgets!
-    return MaterialApp(home: Scaffold(body: GraidentContainer()));
+    return MaterialApp(home: Scaffold(body: GraidentContainer.purple()));
   }
 }

@@ -27,7 +27,7 @@ final endAlignment = Alignment.bottomRight;
 class GraidentContainer extends StatelessWidget {
   const GraidentContainer(this.color1, this.color2, {super.key});
 
-  GraidentContainer.purple()
+  GraidentContainer.purple({super.key})
     : color1 = Colors.deepPurple,
       color2 = Colors.indigo;
 
